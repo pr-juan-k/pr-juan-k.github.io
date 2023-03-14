@@ -1,0 +1,55 @@
+       p{
+			font-family: sans-serif;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-color: #F3F0F3;
+		}
+
+	   #encabezado{
+	   	display: flex;
+	   	justify-content: space-around ;
+	   	
+	   	align-items: center;
+	   	height: 200px;
+	   }
+	   #foto {
+
+	   }
+
+	   
+	   
+	   #descripcion1{
+
+	   	background-color: #CBA6E3;
+ 	
+	   }
+	   #descripcion{
+	   	background-color: #CBBFCB;
+	   }
+
+	   @media only screen and (max-width:570px){
+
+	   	#encabezado{display: block;}
+
+	   	#foto{
+	   		width: 80px;
+	   		height: 75px;
+	   		display: block;
+	   		margin: auto;
+
+
+	   	}
+	   	#descripcion1{
+	   		width: 100%;
+	   	}
+	   	
+	   	#boton{
+	   		align-items: center;
+	   		
+	   	}
+
+	   	
+	   }
